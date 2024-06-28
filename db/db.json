@@ -1,38 +1,38 @@
 [
     {
-        "last_name": "Vador",
-        "first_name": "Dark",
+        "lastName": "Vador",
+        "firstName": "Dark",
         "email": "vador.dark@black-start.empire",
-        "bithdare": "1977-06-25"
+        "birthdate": "1977-06-25"
     },
     {
-        "last_name": "Dan",
-        "first_name": "Gul",
+        "lastName": "Dan",
+        "firstName": "Gul",
         "email": "gul.dan@legion.horde",
-        "bithdare": "1207-09-12"
+        "birthdate": "1207-09-12"
     },
     {
-        "last_name": "King",
-        "first_name": "Lich",
+        "lastName": "King",
+        "firstName": "Lich",
         "email": "arthas.king@citadelle.fleau",
-        "bithdare": "1490-08-02"
+        "birthdate": "1490-08-02"
     },
     {
-        "last_name": "Kenobi",
-        "first_name": "Obi-wan",
+        "lastName": "Kenobi",
+        "firstName": "Obi-wan",
         "email": "obi-wan.kenobi@naboo.repu",
-        "bithdare": "1960-03-15"
+        "birthdate": "1960-03-15"
     },
     {
-        "last_name": "Sparrow",
-        "first_name": "Jack",
+        "lastName": "Sparrow",
+        "firstName": "Jack",
         "email": "jack.sparrow@pearl.tortuga",
-        "bithdare": "1367-11-17"
+        "birthdate": "1367-11-17"
     },
     {
-        "last_name": "Jones",
-        "first_name": "Davy",
+        "lastName": "Jones",
+        "firstName": "Davy",
         "email": "davy.jones@flying-dutsh.tortuga",
-        "bithdare": "1478-04-08"
+        "birthdate": "1478-04-08"
     }
 ]
