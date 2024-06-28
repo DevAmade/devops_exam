@@ -34,8 +34,8 @@ export class AppComponent implements OnInit {
         });
     }
 
-    private displayUsers(data: User[]): void {
-        this.users = data;
+    private displayUsers(data: any): void {
+        this.users = data.row;
         this.error = null;
         this.hasError = false;
         this.hasUsers = true;
