@@ -1,0 +1,12 @@
+<main id="main">
+    <div *ngIf="hasError" id="error_div">
+        <span id="error">{{ error.message }}</span>
+    </div>
+    <div *ngIf="hasUsers" id="user_list_div">
+        <ol id="user_list">
+            <li *ngFor="let user of users" id="user">
+                <span>user.firstName</span>
+            </li>
+        </ol>
+    </div>
+</main>
