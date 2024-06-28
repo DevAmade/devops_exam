@@ -1,4 +1,4 @@
-FROM node:latest
+FROM node:latest AS build
 
 WORKDIR /app
 
@@ -6,6 +6,10 @@ COPY . .
 
 RUN npm install
 
-EXPOSE 4200
+RUN npm run build
 
-CMD ["npm", "start"]
+FROM nginx:latest
+
+COPY --from=build /app/dist/view/browser /usr/share/nginx/html
+
+EXPOSE 80

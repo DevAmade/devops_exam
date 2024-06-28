@@ -3,7 +3,7 @@ networks:
         driver: bridge
 services:
     devops_exam_api:
-        image: devops_exam_app
+        image: devops_exam_api
         build: ./api
         ports:
             - "3000:3000"
@@ -22,7 +22,7 @@ services:
         image: devops_exam_view
         build: ./view
         ports:
-            - "4200:4200"
+            - "80:80"
         networks:
             - devops_exam_network
         depends_on:
