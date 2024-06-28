@@ -1,0 +1,38 @@
+[
+    {
+        "last_name": "Vador",
+        "first_name": "Dark",
+        "email": "vador.dark@black-start.empire",
+        "bithdare": "25/06/1977"
+    },
+    {
+        "last_name": "D'an",
+        "first_name": "Gul",
+        "email": "gul.d'an@legion.horde",
+        "bithdare": "12/09/1207"
+    },
+    {
+        "last_name": "King",
+        "first_name": "Lich",
+        "email": "arthas.king@citadelle.fleau",
+        "bithdare": "02/08/1490"
+    },
+    {
+        "last_name": "Kenobi",
+        "first_name": "Obi-wan",
+        "email": "obi-wan.kenobi@naboo.repu",
+        "bithdare": "15/03/1960"
+    },
+    {
+        "last_name": "Sparrow",
+        "first_name": "Jack",
+        "email": "jack.sparrow@pearl.tortuga",
+        "bithdare": "12/09/1207"
+    },
+    {
+        "last_name": "Jones",
+        "first_name": "Davy",
+        "email": "davy.jones@flying-dutsh.tortuga",
+        "bithdare": "08/04/1478"
+    }
+]

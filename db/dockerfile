@@ -1,12 +1,12 @@
 FROM postgres:latest
 
-ENV POSTGRES_PASSWORD=password_test
+ENV POSTGRES_PASSWORD=password
 ENV POSTGRES_USER=postgres
-ENV POSTGRES_DB=database_test
+ENV POSTGRES_DB=devops_exam_db
 ENV POSTGRES_HOST_METHOD=md5
 ENV POSTGRES_HOST=localhost
 ENV POSTGRES_PORT=5432
 
 EXPOSE 5432
 
-COPY start.sql /docker-entrypoint-initdb.d/
+COPY init_database.sql /docker-entrypoint-initdb.d/
