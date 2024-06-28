@@ -8,7 +8,7 @@ const port = 3000;
 
 app.use(bodyParser.json());
 
-app.use('/', router)
+app.use('/', router);
 
 app.listen(port, () => {
     pool.connect((err) => {

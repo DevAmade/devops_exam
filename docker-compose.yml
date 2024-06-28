@@ -1,0 +1,20 @@
+networks:
+    devops_exam_network:
+        driver: bridge
+services:
+    devops_exam_app:
+        image: devops_exam_app
+        build: ./api
+        ports:
+            - "3000:3000"
+        networks:
+            - devops_exam_network
+        depends_on:
+            - devops_exam_db
+    devops_exam_db:
+        image: devops_exam_db
+        build: ./db
+        ports:
+            - "5432:5432"
+        networks:
+            - devops_exam_network
